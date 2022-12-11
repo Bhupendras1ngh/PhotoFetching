@@ -1,5 +1,10 @@
 
 
-<div><button (click) = "onCLick()">Fetch Image</button>
+<div>
+    <button  (click) = "onCLick()">Fetch Image</button>
+    
 </div>
-<img *ngIf ="photoUrl" [src] ="photoUrl"/>
+<div class="container-fluid">
+
+    <img *ngIf ="photoUrl" [src] ="photoUrl"/>
+</div>
